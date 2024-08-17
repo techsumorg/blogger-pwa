@@ -5,7 +5,7 @@ export default {
   id: '/',
   name: 'TECHSum',
   shortName: 'TECHSum',
-  description: 'TECHSum - Tổng hợp tin tức công nghệ hàng đầu, cập nhật nhanh chóng',
+  description: 'TECHSum - Tổng hợp tin tức công nghệ hàng đầu, cập nhật nhanh chóng.',
   direction: 'auto',
   language: 'vi-VN',
   backgroundColor: '#fff',
