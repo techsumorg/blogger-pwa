@@ -329,16 +329,4 @@ await build({
 });
 log(clc.green(`  +  Copied pwa.js at ${APP_PWA_JS}`));
 
-/* Write serviceworker js */
-log(clc.blue('\nGenerating (serviceworker.js)...'));
-await build({
-  entryPoints: ['./scripts/serviceworker/index.ts'],
-  target: 'es2015',
-  format: 'iife',
-  bundle: true,
-  minify: true,
-  outfile: APP_SERVICEWORKER_JS,
-});
-log(clc.green(`  +  Copied serviceworker.js at ${APP_SERVICEWORKER_JS}`));
-
 log('');
