@@ -30,10 +30,8 @@ if ('serviceWorker' in navigator) {
     .then((registration) => {
       const logs: string[][] = [];
       if (registration.scope) {
-        
       }
       if (registration.active?.scriptURL) {
-        
       }
       
 
