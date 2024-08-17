@@ -317,17 +317,6 @@ const indexHTMLMetaTags = `<!--[ START: PWA Meta Tags ]-->${metatagsResult.noSpl
 const indexHTMLContent = getIndexHTML(options.name, indexHTMLMetaTags);
 await fs.promises.writeFile(path.join(`${BUCKET_DIR}/index.html`), `${indexHTMLContent}\n`);
 
-/* Write pwa js */
-log(clc.blue('\nGenerating (pwa.js)...'));
-await build({
-  entryPoints: ['./scripts/pwa/index.ts'],
-  target: 'es2015',
-  format: 'iife',
-  bundle: true,
-  minify: true,
-  outfile: APP_PWA_JS,
-});
-log(clc.green(`  +  Copied pwa.js at ${APP_PWA_JS}`));
 
 /* Write serviceworker js */
 log(clc.blue('\nGenerating (serviceworker.js)...'));
