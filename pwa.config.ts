@@ -12,7 +12,7 @@ export default {
   themeColor: '#4f6f52',
   display: 'standalone',
   orientation: 'any',
-  scope: '/',
+  scope: '/*?m=1',
   startUrl: '/',
   appleStatusBarStyle: 'black-translucent',
   preferRelatedApplications: false,
