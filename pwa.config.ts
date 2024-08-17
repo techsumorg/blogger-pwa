@@ -10,7 +10,7 @@ export default {
   language: 'vi-VN',
   backgroundColor: '#fff',
   themeColor: '#4f6f52',
-  display: 'fullscreen',
+  display: 'standalone',
   orientation: 'any',
   scope: '/',
   startUrl: '/',
