@@ -8,11 +8,11 @@
   "lang": "vi-VN",
   "orientation": "any",
   "start_url": "/",
-  "scope": "/*?m=1",
+  "scope": "/",
   "display": "standalone",
   "prefer_related_applications": false,
   "background_color": "#fff",
-  "theme_color": "#4f6f52",
+  "theme_color": "#fff",
   "icons": [
     {
       "src": "icons/favicon.ico",

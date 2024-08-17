@@ -8,11 +8,11 @@
   "lang": "vi-VN",
   "orientation": "any",
   "start_url": "https://www.techsum.org/",
-  "scope": "https://www.techsum.org/*?m=1",
+  "scope": "https://www.techsum.org/",
   "display": "standalone",
   "prefer_related_applications": false,
   "background_color": "#fff",
-  "theme_color": "#4f6f52",
+  "theme_color": "#fff",
   "icons": [
     {
       "src": "icons/favicon.ico",
