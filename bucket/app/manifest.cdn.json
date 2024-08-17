@@ -8,7 +8,7 @@
   "lang": "vi-VN",
   "orientation": "any",
   "start_url": "https://www.techsum.org/",
-  "scope": "https://www.techsum.org/",
+  "scope": "https://www.techsum.org/*?m=1",
   "display": "standalone",
   "prefer_related_applications": false,
   "background_color": "#fff",
