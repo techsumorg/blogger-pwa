@@ -9,7 +9,7 @@
   "orientation": "any",
   "start_url": "https://www.techsum.org/",
   "scope": "https://www.techsum.org/",
-  "display": "fullscreen",
+  "display": "standalone",
   "prefer_related_applications": false,
   "background_color": "#fff",
   "theme_color": "#4f6f52",
