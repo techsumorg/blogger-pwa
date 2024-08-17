@@ -30,17 +30,17 @@ if ('serviceWorker' in navigator) {
     .then((registration) => {
       const logs: string[][] = [];
       if (registration.scope) {
-        logs.push([`Scope: ${registration.scope}`]);
+        
       }
       if (registration.active?.scriptURL) {
-        logs.push([`Script:  ${registration.active.scriptURL}`]);
+        
       }
-      logs.push(['Build by: Fineshop Design'], ['Developer site: https://fineshopdesign.com']);
+      
 
-      groupLog(['%cService Worker: Registered Successfully', 'color: green'], logs);
+      
     })
     .catch((error) => {
-      groupLog(['%cService Worker: Registration Failed', 'color: red'], ['Error:', error]);
+      
     });
 
   /** Helper function to initialize OneSignal */
