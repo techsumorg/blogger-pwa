@@ -114,6 +114,32 @@
       "form_factor": "wide"
     }
   ],
+  "shortcuts": [
+    {
+      "name": "News",
+      "short_name": "News",
+      "description": "News",
+      "url": "/search/?utm_source=homescreen&utm_medium=shortcut",
+      "icons": [
+        {
+          "src": "icons/android-chrome-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "AI",
+      "short_name": "AI",
+      "description": "AI",
+      "url": "/search/label/AI?utm_source=homescreen&utm_medium=shortcut",
+      "icons": [
+        {
+          "src": "icons/android-chrome-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
   "serviceworker": {
     "src": "serviceworker.js"
   }
