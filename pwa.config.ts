@@ -16,6 +16,18 @@ export default {
   startUrl: '/',
   appleStatusBarStyle: 'black-translucent',
   preferRelatedApplications: false,
+  shortcuts: [
+    {
+      name: 'News',
+      shortName: 'News',
+      url: '/search/?utm_source=homescreen&utm_medium=shortcut',
+    },
+    {
+      name: 'AI',
+      shortName: 'AI',
+      url: '/search/label/AI?utm_source=homescreen&utm_medium=shortcut',
+    },
+  ],
   pwa: {
     logs: true,
     // OneSignal is not available if you are not using cloudflare workers
