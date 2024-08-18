@@ -7,7 +7,7 @@
   "dir": "auto",
   "lang": "vi-VN",
   "orientation": "any",
-  "start_url": "https://www.techsum.org/",
+  "start_url": "https://www.techsum.org/?utm_source=homescreen",
   "scope": "https://www.techsum.org/",
   "display": "standalone",
   "prefer_related_applications": false,
