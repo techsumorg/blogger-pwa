@@ -3,9 +3,9 @@ import type { Config } from './types';
 export default {
   version: '1.0',
   id: '/',
-  name: 'TECHSum',
-  shortName: 'TECHSum',
-  description: 'TECHSum - Tổng hợp tin tức công nghệ hàng đầu, cập nhật nhanh chóng.',
+  name: 'TechSum',
+  shortName: 'TechSum',
+  description: 'TechSum - Tổng hợp tin tức công nghệ hàng đầu, cập nhật nhanh chóng.',
   direction: 'auto',
   language: 'vi-VN',
   backgroundColor: '#fff',
