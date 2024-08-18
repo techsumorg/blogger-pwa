@@ -13,7 +13,7 @@ export default {
   display: 'standalone',
   orientation: 'any',
   scope: '/',
-  startUrl: '/',
+  startUrl: '/?utm_source=homescreen',
   appleStatusBarStyle: 'black-translucent',
   preferRelatedApplications: false,
   shortcuts: [
