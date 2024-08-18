@@ -1,8 +1,8 @@
 {
-  "name": "TECHSum",
+  "name": "TechSum",
   "id": "/",
-  "short_name": "TECHSum",
-  "description": "TECHSum - Tổng hợp tin tức công nghệ hàng đầu, cập nhật nhanh chóng.",
+  "short_name": "TechSum",
+  "description": "TechSum - Tổng hợp tin tức công nghệ hàng đầu, cập nhật nhanh chóng.",
   "version": "1.0",
   "dir": "auto",
   "lang": "vi-VN",
