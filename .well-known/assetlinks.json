@@ -1,0 +1,8 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "org.techsum.twa",
+      "sha256_cert_fingerprints": ["0A:13:A2:76:23:0F:F4:31:62:90:38:F3:8D:80:5A:9C:9C:43:50:9D:D1:C2:9E:31:9E:02:59:8A:68:00:D7:4E"]
+    }
+  }]
