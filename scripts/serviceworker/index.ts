@@ -17,6 +17,7 @@ const config = {
   fallback: '/app/fallback/',
   manifest: '/app/manifest.json',
   favicon: '/app/icons/favicon.ico',
+  assetlinks: '/.well-known/assetlinks.json'
 };
 
 skipWaiting();
